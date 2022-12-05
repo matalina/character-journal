@@ -1,34 +1,18 @@
-STTV - Svelte / Typescript / Tailwind / Vite Template
-=====================================================
+# Character Journal
 
-Get up and running with Svelte, Typescript, Tailwind and Vite. Also includes testing setup using Jest.
 
-Installation
-------------
+## Credits
 
-```
-npx degit "srmullen/sttv#main" my_app
-cd my_app
-npm install
-```
+**project template:** https://github.com/srmullen/sttv  
+**5e srd json files origins:** https://github.com/5e-bits/5e-database  
 
-Scripts
--------
+Software Packages used:
+* Vite - packaging and development
+* Tailwind CSS - css
+* Svelte - interactivity
+* Jest - testing
+* Typescript - types and development
 
-### Start a development server
-
-`npm run dev`
-
-### Run tests
-
-`npm run test`
-or
-`npm run test:watch`
-
-### Build the application
-
-`npm run build`
-
-### Serve the application
-
-`npm run serve`
+Possible software:
+* Tauri for desktop
+* Capacitor for mobile
