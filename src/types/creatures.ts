@@ -1,5 +1,5 @@
 import type { AbilityScore, Alignment, Background, Feature, Language, PlayableClass, Race, Skill, Subclass, Subrace, Traits } from "./character";
-import type { DamageType, RangeType } from "./items";
+import type { DamageType, Item, RangeType } from "./items";
 import type { DiceFormula } from "./magic";
 
 export interface Creature {
@@ -42,6 +42,9 @@ export interface PlayerCharacter extends Character {
   class: PlayableClass;
   level: number;
   subclass?: Subclass;
+  equipment: Item[];
+  inspiration: boolean;
+  
 }
 
 export interface Pronouns {
